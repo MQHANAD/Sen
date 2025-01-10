@@ -5,7 +5,15 @@
       "@/*": [
         "./src/*"
       ]
-    }
+    },
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "types": [
+      "node", // Add Node.js types if needed
+      "cookie", // Explicitly add cookie type definition
+      "prop-types" // Explicitly add prop-types type definition
+    ]
   },
   "extends": "expo/tsconfig.base",
   "include": [

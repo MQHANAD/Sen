@@ -5,6 +5,11 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { images } from "../constants";
 import CustomButtton from "components/CustomButtton";
 import "nativewind";
+import { registerRootComponent } from "expo";
+import { ExpoRoot } from "expo-router";
+
+// Registering the root component for Expo Router
+registerRootComponent(ExpoRoot);
 
 export default function App() {
   return (

@@ -7,7 +7,7 @@ import {
   Image,
 } from "react-native";
 import React, { useState } from "react";
-import { icons } from "../src/constants";
+import { icons } from "../constants";
 
 const FormField = ({
   title,

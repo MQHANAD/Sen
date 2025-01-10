@@ -7,6 +7,10 @@
       "output": "static",
       "bundler": "metro"
     },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier":"com.Sen.Sen"
+    },
     "plugins": [
       [
         "expo-router",
